@@ -5,66 +5,71 @@
 <head>
     <style>
         body {
-          font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         * {
-          box-sizing: border-box;
+            box-sizing: border-box;
         }
-        
         /* Add padding to containers */
+        
         .container {
-          padding: 16px;
-          background-color: white;
+            padding: 16px;
+            background-color: white;
         }
-        
         /* Full-width input fields */
-        input[type=text], input[type=email], input[type=date], input[type=password] {
-          width: 100%;
-          border-radius: 10px;
-          padding: 15px;
-          margin: 5px 0 22px 0;
-          display: inline-block;
-          border: none;
-          background: #f1f1f1;
+        
+        input[type=text],
+        input[type=email],
+        input[type=date],
+        input[type=password] {
+            width: 100%;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
         }
         
-        input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[type=password]:focus {
-          background-color: lightblue;
-          outline: none;
+        input[type=text]:focus,
+        input[type=email]:focus,
+        input[type=date]:focus,
+        input[type=password]:focus {
+            background-color: lightblue;
+            outline: none;
         }
-        
         /* Overwrite default styles of hr */
-        hr {
-          border: 1px solid #f1f1f1;
-          margin-bottom: 25px;
-        }
-
-   
         
-        /* Set a style for the submit button */
-        .registerbtn {
-          background-color: #04AA6D;
-          color: white;
-          padding: 16px 20px;
-          margin: 8px 0;
-          border: none;
-          border-radius: 10px;
-          cursor: pointer;
-          opacity: 0.9;
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
         }
-    /* start for styling piechart section*/
-    #mypieChart {
-      width: 100%;
-      height: 100%;
-      min-height: 250px;
-    }
- 
-    .zc-ref {
-      display: none;
-    }
-    /* end for styling piechart section*/
-        </style>
+        /* Set a style for the submit button */
+        
+        .registerbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        /* start for styling piechart section*/
+        
+        #mypieChart {
+            width: 100%;
+            height: 100%;
+            min-height: 250px;
+        }
+        
+        .zc-ref {
+            display: none;
+        }
+        /* end for styling piechart section*/
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -72,7 +77,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
-    <title>Omagcrypto Investment</title>
+    <title>Facility Visualizer</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -99,7 +104,7 @@
 
 <body>
     <!-- Start Main Top -->
-    <header class="main-header" >
+    <header class="main-header">
         <!-- Start Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div class="container">
@@ -108,336 +113,333 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <div style="padding-left: 0px;">
-                   
-                    <p> <span class="myimages"><img src="images/lion.png" alt="image not found" height="50px">
-                    </span><span style="font-size:20px" ><b>KENYA HEALTH INFORMATION SYSTEM</b> </span></p>
-                </div>
+                    <div style="padding-left: 0px;">
+
+                        <p> <span class="myimages"><img src="images/lion.png" alt="image not found" height="50px">
+                    </span><span style="font-size:20px"><b>KENYA HEALTH INFORMATION SYSTEM</b> </span></p>
+                    </div>
                 </div>
                 <!-- End Header Navigation -->
 
-               <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                  <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home" arial-hidden="true"></i>Home</a></li>
                         <li class="dropdown">
-                       <li class="nav-item"><a class="nav-link" href="my_account.html"><i class="fas fa-tachometer-alt"></i></i>ALL INDICATORS </a></li>
-                        <li class="nav-item"><a class="nav-link" href="my_deposits.html"><i class="far fa-credit-card"></i>DISAGREGATED INDICATORS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="withdrawals.html"><i class="fas fa-wallet"></i> INDICATOR GROUPS</a></li>
-  
+                            <li class="nav-item"><a class="nav-link" href="my_account.html"><i class="fas fa-tachometer-alt"></i></i>ALL INDICATORS </a></li>
+                            <li class="nav-item"><a class="nav-link" href="my_deposits.html"><i class="far fa-credit-card"></i>DISAGREGATED INDICATORS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="withdrawals.html"><i class="fas fa-wallet"></i> INDICATOR GROUPS</a></li>
+
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
-        
-        <!-- End Navigation -->
+
+            <!-- End Navigation -->
     </header>
     <!-- End Main Top -->
-     <div class="row">
-         <div class="col-lg-6" style="padding: 20px;">
-          <div>
-            <form id="country_kenya">
-              <button type="submit" class="registerbtn" id="my_button" >Click to Search for all facilities in the country</button>
-              <p >
-                <ol id="county_list">
-        
-                </ol>
-            </p>
-            </form>
-          </div>
-          <form id="contactform">
-            <div class="container">
-              <h2>Advanced KMHFL data filter</h2>
-              <hr>
-              <div>
-                <label for="all"><b>Search all facilities</b></label>
-                <input type="text" placeholder="Search all facilities" name="all" id="all">
-              </div>
-              
-                <div>
-                   <label for="services"><b>Search facility Services</b></label>
-                   <input type="text" placeholder="Search Services" name="services" id="services">
-                </div>
-              
-             <div>
-                <label><b>Facility Info</b></label><br>
-                <label for="name"><b>Facility name</b></label>
-                <input type="text" placeholder="facility name" name="name" id="name">
-                <label for="code"><b>Facility code</b></label>
-                <input type="text" placeholder="Facility code" name="code" id="code">
-             </div>
-              
-             <div>
-                <label><b>Administrative unit</b></label><br>
-                <label for="county"><b>County</b></label>
-                <input type="text" placeholder="Select County" name="county" id="county">
-                <label for="sub-county"><b>Sub-county</b></label>
-                <input type="text" placeholder="Select sub-county" name="sub-county" id="sub-county">
-                <label for="Ward"><b>Ward</b></label>
-                <input type="text" placeholder="Select Ward" name="s" id="Ward">
-             </div>
-    
-             <div>
-                <label><b>Services</b></label><br>
-                <label for="service_category"><b>Facility service category</b></label>
-                <input type="text" placeholder="Select a service category" name="service_category" id="service_category">
-                <label for="sub-county"><b>Service</b></label>
-                <input type="text" placeholder="Select a service" name="service_offered" id="service_offered">
-             </div>
-    
-             <div>
-                <label><b>Facility Details</b></label><br>
-                <label for="level"><b>KEPH Level</b></label>
-                <input type="text" placeholder="Select a KEPH Level" name="level" id="level">
-                <label for="type"><b>Facility Type</b></label>
-                <input type="text" placeholder="Select a Facility type" name="type" id="type">
-                <label for="owner_category"><b>Facility Ownner Category</b></label>
-                <input type="text" placeholder="Select a Facility Ownner Category" name="owner_category" id="owner_category">
-                <label for="owner"><b>Facility Ownner</b></label>
-                <input type="text" placeholder="Select a Facility Ownner" name="owner" id="owner">
-                <label for="status"><b>Operational Status</b></label>
-                <input type="text" placeholder="Select a Operational Status" name="status" id="status">
-    
-                <input type="checkbox" name="beds" value="beds">
-                <label for="vehicle1" aria-checked="false">Has Beds</label><br>
-                <input type="checkbox" name="cots" value="cots">
-                <label for="vehicle1" aria-checked="false">Has Cots</label><br>
-             </div>
-             
-              <hr>
-          
-              <button type="submit" class="registerbtn"> <i class="fa fa-search"></i>Search</button>
+    <div class="row">
+        <div class="col-lg-6" style="padding: 20px;">
+            <div>
+                <form id="country_kenya">
+                    <button type="submit" class="registerbtn" id="my_button">Click to Search for all facilities in the country</button>
+                    <p>
+                        <ol id="county_list">
+
+                        </ol>
+                    </p>
+                </form>
             </div>
-            
-          </form>
-                     
-         </div>
-         <div class="col-lg-6" style="padding: 20px;">
+            <form id="contactform">
+                <div class="container">
+                    <h2>Advanced KMHFL data filter</h2>
+                    <hr>
+                    <div>
+                        <label for="all"><b>Search all facilities</b></label>
+                        <input type="text" placeholder="Search all facilities" name="all" id="all">
+                    </div>
+
+                    <div>
+                        <label for="services"><b>Search facility Services</b></label>
+                        <input type="text" placeholder="Search Services" name="services" id="services">
+                    </div>
+
+                    <div>
+                        <label><b>Facility Info</b></label><br>
+                        <label for="name"><b>Facility name</b></label>
+                        <input type="text" placeholder="facility name" name="name" id="name">
+                        <label for="code"><b>Facility code</b></label>
+                        <input type="text" placeholder="Facility code" name="code" id="code">
+                    </div>
+
+                    <div>
+                        <label><b>Administrative unit</b></label><br>
+                        <label for="county"><b>County</b></label>
+                        <input type="text" placeholder="Select County" name="county" id="county">
+                        <label for="sub-county"><b>Sub-county</b></label>
+                        <input type="text" placeholder="Select sub-county" name="sub-county" id="sub-county">
+                        <label for="Ward"><b>Ward</b></label>
+                        <input type="text" placeholder="Select Ward" name="s" id="Ward">
+                    </div>
+
+                    <div>
+                        <label><b>Services</b></label><br>
+                        <label for="service_category"><b>Facility service category</b></label>
+                        <input type="text" placeholder="Select a service category" name="service_category" id="service_category">
+                        <label for="sub-county"><b>Service</b></label>
+                        <input type="text" placeholder="Select a service" name="service_offered" id="service_offered">
+                    </div>
+
+                    <div>
+                        <label><b>Facility Details</b></label><br>
+                        <label for="level"><b>KEPH Level</b></label>
+                        <input type="text" placeholder="Select a KEPH Level" name="level" id="level">
+                        <label for="type"><b>Facility Type</b></label>
+                        <input type="text" placeholder="Select a Facility type" name="type" id="type">
+                        <label for="owner_category"><b>Facility Ownner Category</b></label>
+                        <input type="text" placeholder="Select a Facility Ownner Category" name="owner_category" id="owner_category">
+                        <label for="owner"><b>Facility Ownner</b></label>
+                        <input type="text" placeholder="Select a Facility Ownner" name="owner" id="owner">
+                        <label for="status"><b>Operational Status</b></label>
+                        <input type="text" placeholder="Select a Operational Status" name="status" id="status">
+
+                        <input type="checkbox" name="beds" value="beds">
+                        <label for="vehicle1" aria-checked="false">Has Beds</label><br>
+                        <input type="checkbox" name="cots" value="cots">
+                        <label for="vehicle1" aria-checked="false">Has Cots</label><br>
+                    </div>
+
+                    <hr>
+
+                    <button type="submit" class="registerbtn"> <i class="fa fa-search"></i>Search</button>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-lg-6" style="padding: 20px;">
             <p style="margin-left: 30px;">
                 <h2>KHIS Data Visualizer</h2>
-                 <h4>Availing data from KMFHL at your disposal</h4>
-                 <h4>You can filter data by facility name, code, county, sub_county, ward, operational status e.t.c</h4>
+                <h4>Availing data from KMFHL at your disposal</h4>
+                <h4>You can filter data by facility name, code, county, sub_county, ward, operational status e.t.c</h4>
 
-                 <div class="banner-frame"> <img class="img-thumbnail img-fluid" src="images/kenya.png" alt="" />
+                <div class="banner-frame"> <img class="img-thumbnail img-fluid" src="images/kenya.png" alt="" />
 
-                <center>  <div id="myChart" style="margin-top: 20px;"></div> </center>
-    <script>
-        var chartData = {
-          type: 'bar',
-          "title":{  
-             "text":" Kakamega County"  
-             }, 
-             "scale-y":{  
-                label: { /* Scale Title */
-                  text: "KEPH Levels",
-                  },
-                  values: "0:8:1"
-                },
-             "scale-x":{  
-                label: { /* Scale Title */
-                  text: "Health Facilities",
-                  },
-                  labels: ["Refferal", "dental ", "lurambi","mwiyala", "tea zone"]
-                },
-          series: [
-            { values: [4, 2, 5, 3, 4],
-                'background-color': "#6666FF"
-            },
-            //{ values: [25, 57, 49, 60] }
-          ]
-           };
-        zingchart.render({
-          id: 'myChart',
-          data: chartData,
-          width: "90%"
-        });
-      </script>
+                    <center>
+                        <div id="myChart" style="margin-top: 20px;"></div>
+                    </center>
+                    <script>
+                        var chartData = {
+                            type: 'bar',
+                            "title": {
+                                "text": " Kakamega County"
+                            },
+                            "scale-y": {
+                                label: { /* Scale Title */
+                                    text: "KEPH Levels",
+                                },
+                                values: "0:8:1"
+                            },
+                            "scale-x": {
+                                label: { /* Scale Title */
+                                    text: "Health Facilities",
+                                },
+                                labels: ["Refferal", "dental ", "lurambi", "mwiyala", "tea zone"]
+                            },
+                            series: [{
+                                    values: [4, 2, 5, 3, 4],
+                                    'background-color': "#6666FF"
+                                },
+                                //{ values: [25, 57, 49, 60] }
+                            ]
+                        };
+                        zingchart.render({
+                            id: 'myChart',
+                            data: chartData,
+                            width: "90%"
+                        });
+                    </script>
 
-   <center><div id="twomyChart"></div></center>
-<script>
-    var chartData = {
-      type: 'bar',
-      "title":{  
-         "text":" Nairobi County"  
-         }, 
-         "scale-y":{  
-            label: { /* Scale Title */
-              text: "Number of Beds and cots",
-              },
-              values: "0:120:10"
-            },
-         "scale-x":{  
-            label: { /* Scale Title */
-              text: "Health Facilities",
-              },
-              labels: ["Kenyatta <br> Hospital", "Pumwani", "Mama Lucy","Kayole <br>Hospital", "Nairobi <br>hospital"],
-                  "items-overlap":true,  
-                 "item":{  
-                     "font-angle":-45,
-                      "offset-x":"7px"
-                     }  
-              
-            },
-      series: [
-        { values: [43, 78, 95, 20, 80],
-          'background-color': "#0000FF"
-        },
-        {
-          values: [25, 57, 49, 60, 99],
-          'background-color':"#008000"
-        }
-      ]
-       };
-    zingchart.render({
-      id: 'twomyChart',
-      data: chartData,
-      width: "90%"
-    });
-  </script>
-  <center>
-    <div style="margin-left: 10%;">
-       
-        <h2>Key</h2>
-        <h3 style="color: #0000FF;"> <b> Beds</b></h3>
-        <h3 style="color: #008000;"> <b>Cots</b> </h3>
-    
-  </div>
-</center>
-  
+                    <center>
+                        <div id="twomyChart"></div>
+                    </center>
+                    <script>
+                        var chartData = {
+                            type: 'bar',
+                            "title": {
+                                "text": " Nairobi County"
+                            },
+                            "scale-y": {
+                                label: { /* Scale Title */
+                                    text: "Number of Beds and cots",
+                                },
+                                values: "0:120:10"
+                            },
+                            "scale-x": {
+                                label: { /* Scale Title */
+                                    text: "Health Facilities",
+                                },
+                                labels: ["Kenyatta <br> Hospital", "Pumwani", "Mama Lucy", "Kayole <br>Hospital", "Nairobi <br>hospital"],
+                                "items-overlap": true,
+                                "item": {
+                                    "font-angle": -45,
+                                    "offset-x": "7px"
+                                }
 
-<div id='mypieChart'><a class="zc-ref" href="https://www.zingchart.com/">pie chart design</a></div>
-  <script>
-    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
-    var myConfig = {
-      type: "pie",
-      plot: {
-        borderColor: "#2B313B",
-        borderWidth: 5,
-        // slice: 90,
-        valueBox: {
-          placement: 'out',
-          text: '%t\n%npv%',
-          fontFamily: "Open Sans"
-        },
-        tooltip: {
-          fontSize: '18',
-          fontFamily: "Open Sans",
-          padding: "5 10",
-          text: "%npv%"
-        },
-        animation: {
-          effect: 2,
-          method: 5,
-          speed: 900,
-          sequence: 1,
-          delay: 3000
-        }
-      },
-      source: {
-        text: 'gs.statcounter.com',
-        fontColor: "#8e99a9",
-        fontFamily: "Open Sans"
-      },
-      title: {
-        fontColor: "#8e99a9",
-        text: 'Nairobi facility patients attendance rate',
-        align: "left",
-        offsetX: 10,
-        fontFamily: "Open Sans",
-        fontSize: 20
-      },
-      subtitle: {
-        offsetX: 10,
-        offsetY: 10,
-        fontColor: "#8e99a9",
-        fontFamily: "san serif",
-        fontSize: "16",
-        text: 'Top 5 highly visited June 2021',
-        align: "left"
-      },
-      plotarea: {
-        margin: "20 0 0 0"
-      },
-      series: [{
-          values: [11.38],
-          text: "Nairobi Hospital",
-          backgroundColor: '#50ADF5',
-        },
-        {
-          values: [56.94],
-          text: "Kenyatta Hospital",
-          backgroundColor: '#FF7965',
-          detached: true
-        },
-        {
-          values: [14.52],
-          text: 'Pumwani',
-          backgroundColor: '#FFCB45',
-          detached: true
-        },
-        {
-          text: 'Kilimani',
-          values: [9.69],
-          backgroundColor: '#6877e5'
-        },
-        {
-          text: 'Mama Lucy',
-          values: [7.48],
-          backgroundColor: '#6FB07F'
-        }
-      ]
-    };
- 
-    zingchart.render({
-      id: 'mypieChart',
-      data: myConfig,
-      height: '100%',
-      width: '100%'
-    });
-  </script>
-    </p>
-           
+                            },
+                            series: [{
+                                values: [43, 78, 95, 20, 80],
+                                'background-color': "#0000FF"
+                            }, {
+                                values: [25, 57, 49, 60, 99],
+                                'background-color': "#008000"
+                            }]
+                        };
+                        zingchart.render({
+                            id: 'twomyChart',
+                            data: chartData,
+                            width: "90%"
+                        });
+                    </script>
+                    <center>
+                        <div style="margin-left: 10%;">
+
+                            <h2>Key</h2>
+                            <h3 style="color: #0000FF;"> <b> Beds</b></h3>
+                            <h3 style="color: #008000;"> <b>Cots</b> </h3>
+
+                        </div>
+                    </center>
+
+
+                    <div id='mypieChart'><a class="zc-ref" href="https://www.zingchart.com/">pie chart design</a></div>
+                    <script>
+                        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
+                        var myConfig = {
+                            type: "pie",
+                            plot: {
+                                borderColor: "#2B313B",
+                                borderWidth: 5,
+                                // slice: 90,
+                                valueBox: {
+                                    placement: 'out',
+                                    text: '%t\n%npv%',
+                                    fontFamily: "Open Sans"
+                                },
+                                tooltip: {
+                                    fontSize: '18',
+                                    fontFamily: "Open Sans",
+                                    padding: "5 10",
+                                    text: "%npv%"
+                                },
+                                animation: {
+                                    effect: 2,
+                                    method: 5,
+                                    speed: 900,
+                                    sequence: 1,
+                                    delay: 3000
+                                }
+                            },
+                            source: {
+                                text: 'gs.statcounter.com',
+                                fontColor: "#8e99a9",
+                                fontFamily: "Open Sans"
+                            },
+                            title: {
+                                fontColor: "#8e99a9",
+                                text: 'Nairobi facility patients attendance rate',
+                                align: "left",
+                                offsetX: 10,
+                                fontFamily: "Open Sans",
+                                fontSize: 20
+                            },
+                            subtitle: {
+                                offsetX: 10,
+                                offsetY: 10,
+                                fontColor: "#8e99a9",
+                                fontFamily: "san serif",
+                                fontSize: "16",
+                                text: 'Top 5 highly visited June 2021',
+                                align: "left"
+                            },
+                            plotarea: {
+                                margin: "20 0 0 0"
+                            },
+                            series: [{
+                                values: [11.38],
+                                text: "Nairobi Hospital",
+                                backgroundColor: '#50ADF5',
+                            }, {
+                                values: [56.94],
+                                text: "Kenyatta Hospital",
+                                backgroundColor: '#FF7965',
+                                detached: true
+                            }, {
+                                values: [14.52],
+                                text: 'Pumwani',
+                                backgroundColor: '#FFCB45',
+                                detached: true
+                            }, {
+                                text: 'Kilimani',
+                                values: [9.69],
+                                backgroundColor: '#6877e5'
+                            }, {
+                                text: 'Mama Lucy',
+                                values: [7.48],
+                                backgroundColor: '#6FB07F'
+                            }]
+                        };
+
+                        zingchart.render({
+                            id: 'mypieChart',
+                            data: myConfig,
+                            height: '100%',
+                            width: '100%'
+                        });
+                    </script>
+            </p>
+
+            </div>
         </div>
-  </div>
- 
- 
 
- <!-- Start copyright  -->
-    <div class="footer-copyright" style="width: 100%;">
-        <p class="footer-company">All Rights Reserved. &copy; 2021 <a href="#">Kenya health information system</a> Design By :
-            <a href="https://html.design/">GRoup three hackathons</a></p>
-    </div>
-    <!-- End of copyright  -->
 
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
-    <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+        <!-- Start copyright  -->
+        <div class="footer-copyright" style="width: 100%;">
+            <p class="footer-company">All Rights Reserved. &copy; 2021 <a href="#">Kenya health information system</a> Design By :
+                <a href="https://html.design/">GRoup three hackathons</a></p>
+        </div>
+        <!-- End of copyright  -->
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
-    
-    
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+        <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+        <!-- ALL JS FILES -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+        <script src="js/inewsticker.js"></script>
+        <script src="js/bootsnav.js."></script>
+        <script src="js/images-loded.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/baguetteBox.min.js"></script>
+        <script src="js/form-validator.min.js"></script>
+        <script src="js/contact-form-script.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
-          <script src="login.js"></script>
-          <script src="country.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+        <script src="login.js"></script>
+        <script src="country.js"></script>
 </body>
 
 </html>
